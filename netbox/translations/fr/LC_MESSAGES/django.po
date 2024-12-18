@@ -9606,7 +9606,7 @@ msgstr "Longueur du préfixe"
 #: netbox/ipam/forms/bulk_edit.py:268 netbox/ipam/forms/filtersets.py:241
 #: netbox/templates/ipam/prefix.html:85
 msgid "Is a pool"
-msgstr "C'est une piscine"
+msgstr "Range d'adresses IP"
 
 #: netbox/ipam/forms/bulk_edit.py:273 netbox/ipam/forms/bulk_edit.py:318
 #: netbox/ipam/forms/filtersets.py:248 netbox/ipam/forms/filtersets.py:293
@@ -9668,13 +9668,13 @@ msgstr "Authentification"
 
 #: netbox/ipam/forms/bulk_edit.py:436 netbox/ipam/forms/model_forms.py:608
 msgid "Scope type"
-msgstr "Type de portée"
+msgstr "Type de scope"
 
 #: netbox/ipam/forms/bulk_edit.py:439 netbox/ipam/forms/bulk_edit.py:453
 #: netbox/ipam/forms/model_forms.py:611 netbox/ipam/forms/model_forms.py:621
 #: netbox/ipam/tables/vlans.py:71 netbox/templates/ipam/vlangroup.html:38
 msgid "Scope"
-msgstr "Champ"
+msgstr "Scope"
 
 #: netbox/ipam/forms/bulk_edit.py:446 netbox/ipam/models/vlans.py:60
 msgid "VLAN ID ranges"
@@ -10175,7 +10175,7 @@ msgstr "La fonction principale de ce préfixe"
 
 #: netbox/ipam/models/ip.py:265
 msgid "is a pool"
-msgstr "est une piscine"
+msgstr "est un range d'adresses IP"
 
 #: netbox/ipam/models/ip.py:267
 msgid "All IP addresses within this prefix are considered usable"
@@ -10430,7 +10430,7 @@ msgid ""
 "VLAN is assigned to group {group} (scope: {scope}); cannot also assign to "
 "site {site}."
 msgstr ""
-"Le VLAN est associé au groupe {group} (champ d'application : {scope}) ; ne "
+"Le VLAN est associé au groupe {group} (scope : {scope}) ; ne "
 "peut pas également être associé au site {site}."
 
 #: netbox/ipam/models/vlans.py:275
@@ -10523,7 +10523,7 @@ msgstr "Profondeur"
 
 #: netbox/ipam/tables/ip.py:262
 msgid "Pool"
-msgstr "Piscine"
+msgstr "Range d'adresses"
 
 #: netbox/ipam/tables/ip.py:266 netbox/ipam/tables/ip.py:320
 msgid "Marked Utilized"
@@ -10552,7 +10552,7 @@ msgstr "Objet attribué"
 
 #: netbox/ipam/tables/vlans.py:68
 msgid "Scope Type"
-msgstr "Type de portée"
+msgstr "Type de scope"
 
 #: netbox/ipam/tables/vlans.py:76
 msgid "VID Ranges"
